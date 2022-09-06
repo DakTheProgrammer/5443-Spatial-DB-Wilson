@@ -26,25 +26,25 @@ This project uses a postgres server to make an API about earthquakes. This is do
     - `go run Load/LoadEarthquakes.go`
 
 # FindAll
-<img src="IMG/All1.png">
-<img src="IMG/All2.png">
+<img src="IMG/All1.jpg">
+<img src="IMG/All2.jpg">
 
 # FindOne
 ### ID 13543
-<img src="IMG/One1.png">
+<img src="IMG/One1.jpg">
 
 ### ID 2598
-<img src="IMG/One2.png">
+<img src="IMG/One2.jpg">
 
 # FindClosest
 ### Italy
-<img src="IMG/Closest1.png">
+<img src="IMG/Closest1.jpg">
 
 ### Ocean between Australia and South America
-<img src="IMG/Closest2.png">
+<img src="IMG/Closest2.jpg">
 
 ### Location out of range
-<img src="IMG/Closest3.png">
+<img src="IMG/Closest3.jpg">
 
 ### No Lon or Lat given
-<img src="IMG/Closest4.png">
+<img src="IMG/Closest4.jpg">
