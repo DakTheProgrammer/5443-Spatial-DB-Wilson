@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS earthquakes;
+
+CREATE TABLE public.earthquakes (
+    id NUMERIC PRIMARY KEY NOT NULL,
+    dateTime TIMESTAMP NOT NULL,
+    location GEOMETRY(POINT, 4326) NOT NULL,
+    depth DECIMAL(10,2) NOT NULL,
+    magnitude DECIMAL(4,1) NOT NULL,
+    calculation VARCHAR(3) NOT NULL,
+    network VARCHAR(20) NOT NULL,
+    place VARCHAR(100) NOT NULL,
+    cause VARCHAR(10) NOT NULL);

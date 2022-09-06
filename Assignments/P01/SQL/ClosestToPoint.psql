@@ -1,0 +1,3 @@
+SELECT *, ST_Distance('SRID=4326;POINT(13.329661 41.995222)'::geometry, location) AS dist
+FROM public.earthquakes
+ORDER BY dist LIMIT 1;

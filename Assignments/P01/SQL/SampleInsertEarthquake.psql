@@ -1,0 +1,11 @@
+INSERT INTO public.earthquakes(
+	id, datetime, location, depth, magnitude, calculation, network, place, cause)
+	VALUES (1,
+            '1969-01-01 9:07:06',
+            ST_GeomFromText('POINT(-179.392 51.096 )', 4326),
+            29.37,
+            5.6,
+            'mww',
+            'us2000h7aj',
+            '76km NNW of Visokoi Island, South Georgia and the South Sandwich Islands',
+            'earthquake');
