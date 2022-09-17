@@ -1,0 +1,31 @@
+-- Table: public.militarybases
+
+-- DROP TABLE IF EXISTS public.militarybases;
+
+CREATE TABLE IF NOT EXISTS public.militarybases
+(
+    gid integer NOT NULL DEFAULT nextval('militarybases_gid_seq'::regclass),
+    ansicode character varying(8) COLLATE pg_catalog."default",
+    areaid character varying(22) COLLATE pg_catalog."default",
+    fullname character varying(100) COLLATE pg_catalog."default",
+    mtfcc character varying(5) COLLATE pg_catalog."default",
+    aland double precision,
+    awater double precision,
+    intptlat character varying(11) COLLATE pg_catalog."default",
+    intptlon character varying(12) COLLATE pg_catalog."default",
+    geog geography(MultiPolygon,4326),
+    CONSTRAINT militarybases_pkey PRIMARY KEY (gid)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.militarybases
+    OWNER to postgres;
+-- Index: militarybases_geog_idx
+
+-- DROP INDEX IF EXISTS public.militarybases_geog_idx;
+
+CREATE INDEX IF NOT EXISTS militarybases_geog_idx
+    ON public.militarybases USING gist
+    (geog)
+    TABLESPACE pg_default;

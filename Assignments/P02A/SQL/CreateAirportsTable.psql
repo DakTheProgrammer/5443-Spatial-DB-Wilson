@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS airports;
+
+CREATE TABLE public.airports (
+    id NUMERIC PRIMARY KEY NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    city VARCHAR(100) NOT NULL,
+    country VARCHAR(100) NOT NULL,
+    shortcode VARCHAR(3),
+    longcode VARCHAR(4) NOT NULL,
+    location GEOMETRY(POINT, 4326) NOT NULL,
+    elevation NUMERIC NOT NULL,
+    gmt NUMERIC,
+    tz_short VARCHAR(1),
+    timezone VARCHAR(30),
+    type VARCHAR(7) NOT NULL);
