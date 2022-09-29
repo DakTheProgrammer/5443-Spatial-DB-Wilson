@@ -1,0 +1,25 @@
+DROP TABLE IF EXISTS public.missiles;
+
+CREATE TABLE IF NOT EXISTS public.missiles
+(
+    mid integer,
+    start GEOMETRY(Point,4326),
+    speed double precision,
+    angle double precision,
+    altitude integer,
+    blastradius integer,
+    CONSTRAINT missiles_pkey PRIMARY KEY (mid)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.missiles
+    OWNER to postgres;
+-- Index: missiles_Center_idx
+
+DROP INDEX IF EXISTS public.missiles_Center_idx;
+
+CREATE INDEX IF NOT EXISTS missiles_Center_idx
+    ON public.missiles USING gist
+    (start)
+    TABLESPACE pg_default;

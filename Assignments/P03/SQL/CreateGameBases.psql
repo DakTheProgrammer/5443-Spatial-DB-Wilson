@@ -1,0 +1,25 @@
+DROP TABLE IF EXISTS public.gamebases;
+
+CREATE TABLE IF NOT EXISTS public.gamebases
+(
+    lid integer,
+    gid integer,
+    Center GEOMETRY(POINT,4326),
+    health integer,
+    missilecount integer,
+    area BIGINT,
+    CONSTRAINT gamebases_pkey PRIMARY KEY (lid)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.gamebases
+    OWNER to postgres;
+-- Index: gamebases_Center_idx
+
+DROP INDEX IF EXISTS public.gamebases_Center_idx;
+
+CREATE INDEX IF NOT EXISTS gamebases_Center_idx
+    ON public.gamebases USING gist
+    (Center)
+    TABLESPACE pg_default;

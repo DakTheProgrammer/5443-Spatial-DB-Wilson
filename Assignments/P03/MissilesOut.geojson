@@ -1,0 +1,346 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 0,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.427295,
+            54.822276
+          ]
+        },
+        "properties": {
+          "mid": 0,
+          "angle": 219.09638071136513,
+          "speed": 24702.54544022506,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -87.427295,
+              54.822276
+            ]
+          },
+          "altitude": 16847,
+          "blastradius": 159
+        }
+      },
+      {
+        "id": 1,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -87.24548,
+            19.009852
+          ]
+        },
+        "properties": {
+          "mid": 1,
+          "angle": 310.2683767519693,
+          "speed": 23434.115364335546,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -87.24548,
+              19.009852
+            ]
+          },
+          "altitude": 29425,
+          "blastradius": 240
+        }
+      },
+      {
+        "id": 2,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -60.965485,
+            40.980266
+          ]
+        },
+        "properties": {
+          "mid": 2,
+          "angle": 265.266282844906,
+          "speed": 21504.559302926435,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -60.965485,
+              40.980266
+            ]
+          },
+          "altitude": 25694,
+          "blastradius": 211
+        }
+      },
+      {
+        "id": 3,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -100.794791,
+            53.964234
+          ]
+        },
+        "properties": {
+          "mid": 3,
+          "angle": 222.13129175653572,
+          "speed": 21903.28594649843,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -100.794791,
+              53.964234
+            ]
+          },
+          "altitude": 29728,
+          "blastradius": 174
+        }
+      },
+      {
+        "id": 4,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -130.503312,
+            38.390779
+          ]
+        },
+        "properties": {
+          "mid": 4,
+          "angle": 105.30190338461463,
+          "speed": 21465.50928668408,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -130.503312,
+              38.390779
+            ]
+          },
+          "altitude": 23237,
+          "blastradius": 406
+        }
+      },
+      {
+        "id": 5,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -120.611236,
+            20.447349
+          ]
+        },
+        "properties": {
+          "mid": 5,
+          "angle": 357.5724599819009,
+          "speed": 21804.35708428453,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -120.611236,
+              20.447349
+            ]
+          },
+          "altitude": 26528,
+          "blastradius": 358
+        }
+      },
+      {
+        "id": 6,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -62.902973,
+            50.204285
+          ]
+        },
+        "properties": {
+          "mid": 6,
+          "angle": 252.83133772241874,
+          "speed": 21485.412817781456,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -62.902973,
+              50.204285
+            ]
+          },
+          "altitude": 23287,
+          "blastradius": 188
+        }
+      },
+      {
+        "id": 7,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -103.040213,
+            20.721269
+          ]
+        },
+        "properties": {
+          "mid": 7,
+          "angle": 55.95047852769487,
+          "speed": 23483.595828733174,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -103.040213,
+              20.721269
+            ]
+          },
+          "altitude": 15541,
+          "blastradius": 108
+        }
+      },
+      {
+        "id": 8,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -62.593082,
+            19.06214
+          ]
+        },
+        "properties": {
+          "mid": 8,
+          "angle": 286.05473194748026,
+          "speed": 23036.267197727575,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -62.593082,
+              19.06214
+            ]
+          },
+          "altitude": 15429,
+          "blastradius": 256
+        }
+      },
+      {
+        "id": 9,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -114.36833,
+            53.58616
+          ]
+        },
+        "properties": {
+          "mid": 9,
+          "angle": 175.37876460546696,
+          "speed": 20295.603256569375,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -114.36833,
+              53.58616
+            ]
+          },
+          "altitude": 16485,
+          "blastradius": 326
+        }
+      },
+      {
+        "id": 10,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -129.594414,
+            22.334281
+          ]
+        },
+        "properties": {
+          "mid": 10,
+          "angle": 76.89825272140945,
+          "speed": 22705.499275043676,
+          "start": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -129.594414,
+              22.334281
+            ]
+          },
+          "altitude": 20194,
+          "blastradius": 263
+        }
+      }
+    ]
+  }

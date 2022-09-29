@@ -1,0 +1,305 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 391,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.206477,
+            37.248926
+          ]
+        },
+        "properties": {
+          "lid": 1,
+          "area": 11960452170,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -116.206477,
+              37.248926
+            ]
+          },
+          "health": 11900,
+          "missilecount": 9520
+        }
+      },
+      {
+        "id": 481,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.377169,
+            33.162499
+          ]
+        },
+        "properties": {
+          "lid": 2,
+          "area": 8339619325,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -106.377169,
+              33.162499
+            ]
+          },
+          "health": 8300,
+          "missilecount": 6640
+        }
+      },
+      {
+        "id": 280,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.423887,
+            35.690995
+          ]
+        },
+        "properties": {
+          "lid": 3,
+          "area": 4488401888,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -117.423887,
+              35.690995
+            ]
+          },
+          "health": 4400,
+          "missilecount": 3520
+        }
+      },
+      {
+        "id": 257,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -106.119269,
+            32.215659
+          ]
+        },
+        "properties": {
+          "lid": 4,
+          "area": 4462889125,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -106.119269,
+              32.215659
+            ]
+          },
+          "health": 4400,
+          "missilecount": 3520
+        }
+      },
+      {
+        "id": 492,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -114.192993,
+            33.056803
+          ]
+        },
+        "properties": {
+          "lid": 5,
+          "area": 4324826605,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -114.192993,
+              33.056803
+            ]
+          },
+          "health": 4300,
+          "missilecount": 3440
+        }
+      },
+      {
+        "id": 279,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.090321,
+            32.666623
+          ]
+        },
+        "properties": {
+          "lid": 6,
+          "area": 4244115649,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -113.090321,
+              32.666623
+            ]
+          },
+          "health": 4200,
+          "missilecount": 3360
+        }
+      },
+      {
+        "id": 599,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -113.282955,
+            40.158474
+          ]
+        },
+        "properties": {
+          "lid": 7,
+          "area": 3236406584,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -113.282955,
+              40.158474
+            ]
+          },
+          "health": 3200,
+          "missilecount": 2560
+        }
+      },
+      {
+        "id": 255,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.699771,
+            35.365306
+          ]
+        },
+        "properties": {
+          "lid": 8,
+          "area": 3054089091,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -116.699771,
+              35.365306
+            ]
+          },
+          "health": 3000,
+          "missilecount": 2400
+        }
+      },
+      {
+        "id": 665,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -114.087994,
+            32.518098
+          ]
+        },
+        "properties": {
+          "lid": 9,
+          "area": 2808816459,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -114.087994,
+              32.518098
+            ]
+          },
+          "health": 2800,
+          "missilecount": 2240
+        }
+      },
+      {
+        "id": 616,
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -116.164789,
+            34.467691
+          ]
+        },
+        "properties": {
+          "lid": 10,
+          "area": 2419463013,
+          "center": {
+            "crs": {
+              "type": "name",
+              "properties": {
+                "name": "EPSG:4326"
+              }
+            },
+            "type": "Point",
+            "coordinates": [
+              -116.164789,
+              34.467691
+            ]
+          },
+          "health": 2400,
+          "missilecount": 1920
+        }
+      }
+    ]
+  }

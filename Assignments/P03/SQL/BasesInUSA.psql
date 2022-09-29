@@ -1,0 +1,5 @@
+SELECT * from 
+(SELECT ST_X(Center::geometry) as x, ST_Y(Center::geometry) as y, gid, (landarea + waterarea)::BIGINT as area from (SELECT ST_Centroid(miltable.geog) as Center, miltable.gid as gid, miltable.aland as landarea, miltable.awater as waterarea from militarybases as miltable)
+as useless)
+as why 
+where x < -66 and x > -125 and y > 23 and y < 50 ORDER BY area DESC limit 70;
