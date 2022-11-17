@@ -1,0 +1,430 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": 275,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -134.65663561,
+                    54.480320763
+                ]
+            },
+            "properties": {
+                "bearing": 2.0577435,
+                "altitude": 8171.2637,
+                "current_time": "00:09:05",
+                "missile_type": "Hellfire"
+            }
+        },
+        {
+            "id": 262,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.776938884,
+                    42.383050639
+                ]
+            },
+            "properties": {
+                "bearing": 1.4458027,
+                "altitude": 4601.305,
+                "current_time": "00:09:06",
+                "missile_type": "Harpoon"
+            }
+        },
+        {
+            "id": 282,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -125.799571521,
+                    54.405582411
+                ]
+            },
+            "properties": {
+                "bearing": 1.9935628,
+                "altitude": 8716.41,
+                "current_time": "00:09:06",
+                "missile_type": "Patriot"
+            }
+        },
+        {
+            "id": 283,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -135.46988326,
+                    19.75835852
+                ]
+            },
+            "properties": {
+                "bearing": 0.8005659,
+                "altitude": 12715.745,
+                "current_time": "00:09:06",
+                "missile_type": "Hellfire"
+            }
+        },
+        {
+            "id": 203,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.868259718,
+                    20.124212125
+                ]
+            },
+            "properties": {
+                "bearing": 5.561501,
+                "altitude": 76.03274,
+                "current_time": "00:09:07",
+                "missile_type": "Harpoon"
+            }
+        },
+        {
+            "id": 278,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.947778254,
+                    43.097371162
+                ]
+            },
+            "properties": {
+                "bearing": 5.054643,
+                "altitude": 9687.106,
+                "current_time": "00:09:07",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 269,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.919296071,
+                    29.167420598
+                ]
+            },
+            "properties": {
+                "bearing": 5.3860526,
+                "altitude": 7433.1587,
+                "current_time": "00:09:07",
+                "missile_type": "Javelin"
+            }
+        },
+        {
+            "id": 265,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.779489646,
+                    25.232986059
+                ]
+            },
+            "properties": {
+                "bearing": 0.8986002,
+                "altitude": 5795.184,
+                "current_time": "00:09:07",
+                "missile_type": "Hellfire"
+            }
+        },
+        {
+            "id": 266,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.778689897,
+                    46.439514792
+                ]
+            },
+            "properties": {
+                "bearing": 1.2622391,
+                "altitude": 4318.307,
+                "current_time": "00:09:07",
+                "missile_type": "Harpoon"
+            }
+        },
+        {
+            "id": 264,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.927188018,
+                    41.63560201
+                ]
+            },
+            "properties": {
+                "bearing": 5.2177258,
+                "altitude": 6538.122,
+                "current_time": "00:09:07",
+                "missile_type": "Harpoon"
+            }
+        },
+        {
+            "id": 245,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.778249428,
+                    29.056171602
+                ]
+            },
+            "properties": {
+                "bearing": 0.7952957,
+                "altitude": 2009.8878,
+                "current_time": "00:09:07",
+                "missile_type": "Harpoon"
+            }
+        },
+        {
+            "id": 234,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.923788089,
+                    40.51357582
+                ]
+            },
+            "properties": {
+                "bearing": 4.843042,
+                "altitude": 4324.721,
+                "current_time": "00:09:07",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 242,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.780174303,
+                    32.95199435
+                ]
+            },
+            "properties": {
+                "bearing": 0.9742041,
+                "altitude": 4626.3564,
+                "current_time": "00:09:08",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 273,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.038447186,
+                    20.017579516
+                ]
+            },
+            "properties": {
+                "bearing": 5.935434,
+                "altitude": 5076.845,
+                "current_time": "00:09:08",
+                "missile_type": "Minuteman"
+            }
+        },
+        {
+            "id": 281,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -87.555104538,
+                    19.773243624
+                ]
+            },
+            "properties": {
+                "bearing": 5.853139,
+                "altitude": 9950.497,
+                "current_time": "00:09:08",
+                "missile_type": "Harpoon"
+            }
+        },
+        {
+            "id": 274,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.782337771,
+                    49.509867808
+                ]
+            },
+            "properties": {
+                "bearing": 1.5486976,
+                "altitude": 9827.023,
+                "current_time": "00:09:08",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 277,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.783436231,
+                    41.403068633
+                ]
+            },
+            "properties": {
+                "bearing": 1.1986917,
+                "altitude": 11811.919,
+                "current_time": "00:09:09",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 231,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.059343563,
+                    20.009026829
+                ]
+            },
+            "properties": {
+                "bearing": 0.3233546,
+                "altitude": 3494.6807,
+                "current_time": "00:09:09",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 280,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -93.500658685,
+                    54.44522615
+                ]
+            },
+            "properties": {
+                "bearing": 4.2946825,
+                "altitude": 7164.0654,
+                "current_time": "00:09:10",
+                "missile_type": "Minuteman"
+            }
+        },
+        {
+            "id": 246,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -61.909088512,
+                    36.666696864
+                ]
+            },
+            "properties": {
+                "bearing": 5.155268,
+                "altitude": 3838.1013,
+                "current_time": "00:09:10",
+                "missile_type": "Harpoon"
+            }
+        },
+        {
+            "id": 270,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -134.327637662,
+                    54.764385037
+                ]
+            },
+            "properties": {
+                "bearing": 1.8232793,
+                "altitude": 958.95416,
+                "current_time": "00:09:10",
+                "missile_type": "Patriot"
+            }
+        },
+        {
+            "id": 276,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.783104024,
+                    44.423354536
+                ]
+            },
+            "properties": {
+                "bearing": 1.3404685,
+                "altitude": 9801.024,
+                "current_time": "00:09:10",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 226,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -129.770692226,
+                    49.467720638
+                ]
+            },
+            "properties": {
+                "bearing": 1.7750101,
+                "altitude": 2779.1646,
+                "current_time": "00:09:11",
+                "missile_type": "Atlas"
+            }
+        },
+        {
+            "id": 279,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.931557296,
+                    19.867933101
+                ]
+            },
+            "properties": {
+                "bearing": 6.1571507,
+                "altitude": 8625.678,
+                "current_time": "00:09:11",
+                "missile_type": "Minuteman"
+            }
+        },
+        {
+            "id": 267,
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.70853897,
+                    20.167376351
+                ]
+            },
+            "properties": {
+                "bearing": 5.663958,
+                "altitude": 3636.3293,
+                "current_time": "00:09:12",
+                "missile_type": "Minuteman"
+            }
+        }
+    ]
+}
