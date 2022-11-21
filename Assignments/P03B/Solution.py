@@ -1,4 +1,3 @@
-from atexit import register
 import json
 import requests
 from geojson import MultiPolygon, Point, MultiPoint
