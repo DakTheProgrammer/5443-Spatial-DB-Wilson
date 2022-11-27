@@ -1,4 +1,4 @@
-## P04.1 - Missile Command
+## P04.1 - BS: Ship Location Generation
 ### Dakota Wilson
 ### Description:
 

@@ -7,3 +7,4 @@
 |  P03A  | [P03A](https://github.com/DakTheProgrammer/5443-Spatial-DB-Wilson/tree/main/Assignments/P03A)   | Assignment that gets the 70 larges military bases and launches missiles towards them (sorry FBI)         |
 |  P03B  | [P03B](https://github.com/DakTheProgrammer/5443-Spatial-DB-Wilson/tree/main/Assignments/P03B)   | Assignment that uses an API to play a missile command like game using PostGIS spatial queries            |
 |  P04.1 | [P04.1](https://github.com/DakTheProgrammer/5443-Spatial-DB-Wilson/tree/main/Assignments/P04.1) | Assignment that places a fleet of ships in an organized fashion using PostGIS databases and queries      |
+|  P04.2 | [P04.2](https://github.com/DakTheProgrammer/5443-Spatial-DB-Wilson/tree/main/Assignments/P04.2) | Assignment that creates all tables for the game and sets basic queries                                   |
