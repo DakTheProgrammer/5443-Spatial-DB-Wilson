@@ -43,13 +43,20 @@ def convertLinestring(line):
     else:
         return final
 
+def convertDateToOtherDate(inTime):
+    # Example input time:  "2022-10-27 12:12:07"
+    # Example return time: “25/05/99 19:42:50”
+    rawString = (inTime.replace(' ', '-')).split("-")
+    year = rawString[0][2::]
+    return (rawString[2] + '/' + rawString[1] + '/' + year + ' ' + rawString[3])
+
 #used to store previous missile information
 MissileInfo = {}
 #used to check if a missile has already been processed
 IDsDone = []
 
 #resets the game probably should use this only for testing but who knows
-#requests.get("http://missilecommand.live:8080/RESET")
+requests.get("http://missilecommand.live:8080/RESET")
 
 #lets the request finish
 time.sleep(5)
@@ -238,27 +245,40 @@ while(True):
                     WhenFire = HitTime - TimeNeededToHit
 
                     #gets the timestamp we need to fire from battery
-                    FireTime = "SELECT current_date + time '" + MissileInfo[feature["id"]]["current_time"] + "' + interval '" + str(WhenFire) + " seconds' as until"
+                    FireTime = "SELECT current_date + time '" + MissileInfo[feature["id"]]["current_time"] + "' + interval '" + str(int(WhenFire)) + " seconds' as until"
                     with DatabaseCursor() as cur:
                         cur.execute(FireTime)
                         FireTime = str(cur.fetchall()[0][0])
 
                     #gets hit time in required way
-                    ExpectedHitTime = "SELECT current_date + time '" + MissileInfo[feature["id"]]["current_time"] + "' + interval '" + str(HitTime) + " seconds' as until"
+                    ExpectedHitTime = "SELECT current_date + time '" + MissileInfo[feature["id"]]["current_time"] + "' + interval '" + str(int(HitTime)) + " seconds' as until"
                     with DatabaseCursor() as cur:
                         cur.execute(ExpectedHitTime)
                         HitTime = str(cur.fetchall()[0][0])
+
+                    # HitTimeConversion = "SELECT extract(epoch from TIMESTAMP '" + str(HitTime) + "')::integer;"
+                    # FireTimeConversion = "SELECT extract(epoch from TIMESTAMP '" + str(FireTime) + "')::integer;"
+
+                    # with DatabaseCursor() as cur:
+                    #     cur.execute(HitTimeConversion)
+                    #     HitTime = str(cur.fetchall()[0][0])
+
+                    #     cur.execute(FireTimeConversion)
+                    #     FireTime = str(cur.fetchall()[0][0])
+
+                    HitTime = convertDateToOtherDate(HitTime)
+                    FireTime = convertDateToOtherDate(FireTime)
 
                     solution = {
                         "team_id" : teamID,
                         "target_missile_id": feature["id"],
                         "missile_type": MissileToSend[1],
-                        "fired_time": FireTime,
+                        "fired_time": FireTime,#
                         "firedfrom_lat": battery["coordinates"][1],
                         "firedfrom_lon": battery["coordinates"][0],
                         "aim_lat": target[1],
                         "aim_lon": target[0],
-                        "expected_hit_time": HitTime,
+                        "expected_hit_time": HitTime,#
                         "target_alt": target[2]
                     }
 
